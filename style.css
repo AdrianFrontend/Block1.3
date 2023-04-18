@@ -179,7 +179,6 @@ main {
 }
 
 .main-menu__item--active {
-  padding: 8px 16px;
   background-color: #ffffff;
   border: #b8ffec 2px solid;
   border-radius: 6px;
@@ -250,6 +249,10 @@ main {
     background-color: #eaeaea;
     margin-left: 16px;
     margin-bottom: 9px;
+  }
+
+  .main-content__text--visible-tablet {
+    display: none;
   }
 }
 
