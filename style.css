@@ -61,8 +61,7 @@ body {
 }
 
 .header-nav__icon {
-  display: block;
-  width: 40px;
+  display: inline-block;
   height: 40px;
   border-radius: 50%;
   margin-right: 16px;
@@ -266,18 +265,18 @@ main {
   }
 
   .header-nav__phone-button {
-    display: block;
+    display: inline-block;
   }
 
   .header-nav__message-button {
-    display: block;
+    display: inline-block;
   }
 
   .header-nav__profile-button {
-    display: block;
+    display: inline-block;
   }
 
-  /* .header-nav__profile-button::after {
+  .header-nav__profile-button::after {
     display: inline-block;
     content: '';
     width: 2px;
@@ -285,8 +284,8 @@ main {
     background-color: #eaeaea;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 9px;
-  } */
+    margin-bottom: 4px;
+  }
 
   .header-nav__icon:nth-child(3) {
     margin-right: 0;
